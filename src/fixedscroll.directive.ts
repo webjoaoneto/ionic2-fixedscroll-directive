@@ -10,8 +10,6 @@ export class FixedScrollDirective {
 
     private _isFixed: boolean = false;
 
-    private _defaultTop = 0;
-
     constructor( private _content: Content, private _renderer: Renderer2, private _el: ElementRef ) {
        _content.ionScroll.subscribe(this._onScroll.bind(this))
 
