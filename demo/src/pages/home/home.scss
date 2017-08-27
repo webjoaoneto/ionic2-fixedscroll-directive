@@ -8,7 +8,7 @@ page-home {
             transition: all 0.5s ease;
 
             &.searchbar-ios {
-                transform: translateY(#{$navbar-ios-height} + #{$cordova-ios-statusbar-padding});
+                transform: translateY(calc(#{$navbar-ios-height} + #{$cordova-ios-statusbar-padding}));
             }
 
             &.searchbar-md {
