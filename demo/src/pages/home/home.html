@@ -1,0 +1,30 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Fixed Scroll tests </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+  <h2 ion-text color="primary" padding> Check how fixed elements are cool and usual for some cases =) </h2>
+  <ion-list>
+    <ion-searchbar fixed-scroll></ion-searchbar>
+    <ion-item-sliding *ngFor="let item of items">
+      <button ion-item>
+        <ion-avatar item-start>
+          <img [src]="item.profilePic" />
+        </ion-avatar>
+        <h2>{{item.name}}</h2>
+        <p>{{item.about}}</p>
+        <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>
+      </button>
+
+      <ion-item-options>
+        <button ion-button color="danger" >
+          Item settings
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>

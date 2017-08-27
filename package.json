@@ -1,0 +1,44 @@
+{
+  "name": "ionic2-fixedscroll-directive",
+  "version": "1.0.2",
+  "description": "A directive for Ionic framework for fix an component on top of the page after scroll.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "ngc": "ngc",
+    "build": "rm -rf aot dist && npm run ngc",
+    "publishPackage": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joao-gsneto/ionic2-fixedscroll-directive.git"
+  },
+  "keywords": [
+    "ionic",
+    "ionic2",
+    "ionic3",
+    "Fixed Top",
+    "Directive"
+  ],
+  "author": "Joao Neto <joao.gsneto@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joao-gsneto/ionic2-fixedscroll-directive/issues"
+  },
+  "homepage": "https://github.com/joao-gsneto/ionic2-fixedscroll-directive#readme",
+  "devDependencies": {
+    "@angular/common": "4.1.2",
+    "@angular/compiler": "4.1.2",
+    "@angular/compiler-cli": "4.1.2",
+    "@angular/core": "4.1.2",
+    "@angular/forms": "4.1.2",
+    "@angular/http": "4.1.2",
+    "@angular/platform-browser": "4.1.2",
+    "@angular/platform-browser-dynamic": "4.1.2",
+    "@types/core-js": "^0.9.36",
+    "ionic-angular": "3.3.0",
+    "rxjs": "5.1.1",
+    "types": "^0.1.1",
+    "typescript": "2.3.3",
+    "zone.js": "^0.8.10"
+  }
+}

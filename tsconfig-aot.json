@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es2015"],
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "typeRoots": [
+      "./node_modules/@types/"
+    ]
+  },
+
+  "files": [
+    "src/fixedscroll.module.ts",
+    "src/fixedscroll.directive.ts",
+    "src/index.ts"
+  ],
+
+  "angularCompilerOptions": {
+   "genDir": "aot",
+   "skipMetadataEmit" : true
+ }
+}
