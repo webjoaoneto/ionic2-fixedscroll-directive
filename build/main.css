@@ -25264,8 +25264,8 @@ page-home ion-searchbar.fixed {
 }
 
 page-home ion-searchbar.fixed.searchbar-ios {
-  -webkit-transform: translateY(44px + 20px);
-  transform: translateY(44px + 20px);
+  -webkit-transform: translateY(calc(44px + 20px));
+  transform: translateY(calc(44px + 20px));
 }
 
 page-home ion-searchbar.fixed.searchbar-md {
