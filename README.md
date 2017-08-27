@@ -1,4 +1,4 @@
-# Ionic2-Calendar directive
+# Ionic2-FixedScroll-Directive
 
 Ionic2+ Fixed Scroll Directive for any component.
 
