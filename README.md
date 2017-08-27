@@ -5,6 +5,8 @@
 
 Ionic2+ Fixed Scroll Directive for any component.
 
+![|Demo Gif Screen](https://joao-gsneto.github.io/ionic2-fixedscroll-directive/fixedscroll.gif) 
+
 # Dependency
 Needs Ionic 3 on the most recent versions.      
 
