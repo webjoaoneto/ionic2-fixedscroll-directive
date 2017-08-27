@@ -3,7 +3,9 @@
 ![|DevDependency check](https://david-dm.org/joao-gsneto/ionic2-fixedscroll-directive/dev-status.svg)
 [![npm version](https://badge.fury.io/js/ionic2-fixedscroll-directive.svg)](https://badge.fury.io/js/ionic2-fixedscroll-directive) 
 
-Ionic2+ Fixed Scroll Directive for any component.
+Ionic2+ Fixed Scroll Directive for any component in mobile platforms (IOS, Android, Windows Phone). Not works with PWA yet.
+
+![|Demo Gif Screen](https://joao-gsneto.github.io/ionic2-fixedscroll-directive/fixedscroll.gif) 
 
 # Dependency
 Needs Ionic 3 on the most recent versions.      
@@ -89,7 +91,7 @@ Example (Using a searchbar component):
             transition: all 0.5s ease;
 
             &.searchbar-ios {
-                transform: translateY(#{$navbar-ios-height} + #{$cordova-ios-statusbar-padding});
+                transform: translateY(calc(#{$navbar-ios-height} + #{$cordova-ios-statusbar-padding}));
             }
 
             &.searchbar-md {
