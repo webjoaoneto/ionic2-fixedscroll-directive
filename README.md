@@ -3,8 +3,7 @@
 Ionic2+ Fixed Scroll Directive for any component.
 
 # Dependency
-Needs Ionic 2 or Ionic 3 on the more recent versions.      
-
+Needs Ionic 3 on the most recent versions.      
 
 # Usage
 
@@ -65,10 +64,12 @@ or with ionic native components
 ```
 
 
-# CSS and styles
+# CSS and styles (Important)
 
 This component adds a "fixed" class to the component in the moment that scrolls on page are on the component.
-You need to setup your SASS file to add this styles.
+BUT you need to setup your SASS file to add the fixed styles to your app.
+
+Most common style is defining a top: 0; and position: fixed; css attributes.
 
 Example (Using a searchbar component):
 
@@ -78,7 +79,7 @@ Example (Using a searchbar component):
    your-page {
        ion-searchbar {
            &.fixed {
-            @extend .toolbar;
+            @extend .toolbar; //optional
             position: fixed;
             top: 0; 
 
