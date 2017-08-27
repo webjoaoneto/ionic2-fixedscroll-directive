@@ -1,4 +1,9 @@
 # Ionic2-FixedScroll-Directive
+![|Dependency check](https://david-dm.org/joao-gsneto/ionic2-fixedscroll-directive.svg) 
+![|DevDependency check](https://david-dm.org/joao-gsneto/ionic2-fixedscroll-directive/dev-status.svg)
+[![npm version](https://badge.fury.io/js/ionic2-fixedscroll-directive.svg)](https://badge.fury.io/js/ionic2-fixedscroll-directive) 
+
+/joao-gsneto/ionic2-fixedscroll-directive/dev-status.svg
 
 Ionic2+ Fixed Scroll Directive for any component.
 
