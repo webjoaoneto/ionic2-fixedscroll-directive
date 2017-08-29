@@ -16,7 +16,7 @@ Install: `npm install ionic2-fixedscroll-directive --save`
 
 Import the ionic2-fixedscroll-directive module:
 
-```
+```javascript
 import { NgModule } from '@angular/core';
 import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app/app.component';
@@ -39,7 +39,8 @@ export class AppModule {}
 ```
 
 If you are using PageModule, you need to import the NgFixedScrollModule in your page module
-```
+
+```javascript
 import { NgFixedScrollModule  } from 'ionic2-fixedscroll-directive';
 
 @NgModule({
@@ -59,12 +60,12 @@ export class MyPageModule {}
 
 Add the directive in any custom component
 
-```
+```html
       <YourComponent fixed-scroll></YourComponent>
 ```
 or with ionic native components
 
-```
+```html
       <ion-searchbar fixed-scroll></ion-searchbar>
 ```
 
@@ -80,7 +81,7 @@ Example (Using a searchbar component):
 
 * In custom components, is a good practice create an separeted css class for ios|md|wp because the toolbar sizes are different
 
-```
+```sass
    your-page {
        ion-searchbar {
            &.fixed {
